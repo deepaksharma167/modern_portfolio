@@ -1,0 +1,14 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss:dist/css"
+  },
+  "author": "Deepak Sharma",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
+}
