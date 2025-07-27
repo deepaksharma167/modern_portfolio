@@ -2,13 +2,22 @@
   "name": "my-site",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepaksharma167/modern_portfolio.git"
+  },
+  "homepage": "https://deepaksharma167.github.io/modern_portfolio/",
   "scripts": {
-    "sass": "sass -w scss:dist/css"
+    "sass": "sass -w scss:dist/css",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Deepak Sharma",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "sass": "^1.89.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
