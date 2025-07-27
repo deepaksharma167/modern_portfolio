@@ -30,7 +30,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden;
 }
 .menu.show {
@@ -66,8 +65,8 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding .portrait {
-  width: 250px;
-  height: 250px;
+  width: 210px;
+  height: 210px;
   background: url("../img/portrait.jpg");
   border-radius: 50%;
   border: solid 3px #eece1a;
@@ -334,8 +333,8 @@ main#home h1 {
   }
   .menu-branding .portrait {
     background: url("../img/portrait_small.jpg");
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
